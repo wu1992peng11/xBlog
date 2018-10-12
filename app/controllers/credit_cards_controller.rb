@@ -6,6 +6,7 @@ class CreditCardsController < ApplicationController
   end
 
   def credit
+  	@current_time = Time.now
   end
 
   def close
